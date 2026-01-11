@@ -45,7 +45,7 @@ Status will update in your terminal as shown below:
 
 <img width="611" height="53" alt="cli s3 creation" src="https://github.com/user-attachments/assets/8b09d449-118f-43b8-b5bd-bbb2765b6496" />
 
-You can also verify by going ro CloudFormation in the AWS Console to view the stack status:
+You can also verify by going to CloudFormation in the AWS Console to view the stack status:
 
 <img width="845" height="220" alt="console final" src="https://github.com/user-attachments/assets/a7281c2e-6080-44e6-ade4-e52b0add2b37" />
 
