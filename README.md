@@ -31,7 +31,9 @@ Resources:
               SSEAlgorithm: AES256
 
 # Create the CloudFormtion stack using AWS CLI
+
 Run this in your windows terminal:
+
 aws cloudformation deploy --template-file secure-s3-bucket.yml --stack-name my-secure-bucket-atand-2026-v1 --capabilities CAPABILITY_NAMED_IAM
 
 # Note:
@@ -40,9 +42,11 @@ For "--template file", make sure to specify the correct path where your template
 
 # 3. Monitor Stack Creation
 Status will update in your terminal as shown below:
+
 <img width="611" height="53" alt="cli s3 creation" src="https://github.com/user-attachments/assets/8b09d449-118f-43b8-b5bd-bbb2765b6496" />
 
 You can also verify by going ro CloudFormation in the AWS Console to view the stack status:
+
 <img width="845" height="220" alt="console final" src="https://github.com/user-attachments/assets/a7281c2e-6080-44e6-ade4-e52b0add2b37" />
 
 
