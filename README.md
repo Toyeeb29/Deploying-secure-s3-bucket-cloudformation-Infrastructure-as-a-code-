@@ -10,7 +10,7 @@ AWS CLI installed on your operating system
 AWS CLI configured (run the command aws configure in your OS terminal and enter your credentials)
 
 ## Steps to Deploy the CloudFormation Template
-1. Create the CloudFormation Template
+## 1. Create the CloudFormation Template
 Create a new YAML file called: secure-s3-bucket.yml. Copy and paste in the following into your file:
 ```yaml
 AWSTemplateFormatVersion: 2010-09-09
