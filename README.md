@@ -5,9 +5,9 @@ AWS CloudFormation is a service that lets you build and manage AWS resources thr
 This project explains how to deploy a CloudFormation template using the AWS CLI to create a secure Amazon S3 bucket. The bucket is configured to block all public access and uses AES-256 server-side encryption to protect stored data.
 ## Prerequisites for the project
 Ensure you have:
-An AWS account
-AWS CLI installed on your operating system
-AWS CLI configured (run the command aws configure in your OS terminal and enter your credentials)
+* An AWS account
+* AWS CLI installed on your operating system
+* AWS CLI configured (run the command aws configure in your OS terminal and enter your credentials)
 
 ## Steps to Deploy the CloudFormation Template
 ## 1. Create the CloudFormation Template
