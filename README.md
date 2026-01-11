@@ -15,6 +15,9 @@ Create a new YAML file called: secure-s3-bucket.yml. Copy and paste in the follo
 AWSTemplateFormatVersion: 2010-09-09
 Description: Secure S3 Bucket Example
 
+AWSTemplateFormatVersion: 2010-09-09
+Description: Secure S3 Bucket Example
+
 Resources:
   SecureBucket:
     Type: AWS::S3::Bucket
@@ -30,11 +33,13 @@ Resources:
           - ServerSideEncryptionByDefault:
               SSEAlgorithm: AES256
 
+
 # Create the CloudFormtion stack using AWS CLI
 
 Run this in your windows terminal:
 
 aws cloudformation deploy --template-file secure-s3-bucket.yml --stack-name my-secure-bucket-atand-2026-v1 --capabilities CAPABILITY_NAMED_IAM
+
 
 # Note:
 Make sure the bucket name is globally unique. If my-secure-bucket-atand-2026-v1 is already taken, change the bucket name in the YAML file.
