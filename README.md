@@ -35,7 +35,7 @@ Resources:
               SSEAlgorithm: AES256
 ```
 
-## Create the CloudFormtion stack using AWS CLI
+## 2. Create the CloudFormtion stack using AWS CLI
 
 Run this in your windows terminal:
 
